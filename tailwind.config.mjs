@@ -1,7 +1,4 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
-};
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#2DA884",
+        primary: "2DA884",
       },
     },
     extend: {
@@ -24,5 +21,3 @@ module.exports = {
   },
   //   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
-
-export default config;
