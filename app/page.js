@@ -1,5 +1,20 @@
 import Image from "next/image";
+import { Montserrat, Plus_Jakarta_Sans } from "next/font/google";
+
 import Hero from "./components/Hero";
+
+const montserratFont = Montserrat({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-montserrat",
+});
+
+const plusJakartaSansFont = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-plus-jakarta-sans",
+});
+
 export default function Home() {
   return (
     <div className="flex h-screen justify-center items-center ">

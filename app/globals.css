@@ -11,6 +11,13 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-primary: #2da884;
+  --color-secondarydark: #232a42;
+  --color-black-layer: rgba(0, 0, 0, 0.9);
+
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-exile: "Oswald", sans-serif;
+  --font-mo: var(--font-montserrat);
+  --font-plus: var(--font-plus-jakarta-sans);
 }
 
 @media (prefers-color-scheme: dark) {
