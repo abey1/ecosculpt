@@ -1,5 +1,10 @@
 import React from "react";
 import { TbGardenCartFilled } from "react-icons/tb";
+import { GiFlowerPot } from "react-icons/gi";
+import { FaUserGraduate } from "react-icons/fa";
+import { PiShovelFill } from "react-icons/pi";
+import { GiVacuumCleaner } from "react-icons/gi";
+import { PiFlowerTulipBold } from "react-icons/pi";
 
 const Workservice = () => {
   return (
@@ -21,21 +26,87 @@ const Workservice = () => {
           className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
             "bg-primary"}`}
         >
-          <TbGardenCartFilled className="text-primary hover:text-white text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <TbGardenCartFilled className="text-primary  text-1xl sm:text-2xl md:text-3xl mb-2" />
+
           <div className="text-2xl font-mo capitalize font-bold">
             <span className="text-secondarydark">lawn</span>{" "}
-            <span className="text-primary hover:text-white">care</span>
+            <span className="text-primary ">care</span>
           </div>
           <p className="text-grayp">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             hendrerit suscipit egestas. Nunc eget congue ante.{" "}
           </p>
         </div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div
+          className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
+            "bg-primary"}`}
+        >
+          <GiFlowerPot className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <div className="text-2xl font-mo capitalize font-bold">
+            <span className="text-secondarydark">Tree and</span>{" "}
+            <span className="text-primary ">Shrub Care</span>
+          </div>
+          <p className="text-grayp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante.{" "}
+          </p>
+        </div>
+        <div
+          className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
+            "bg-primary"}`}
+        >
+          <FaUserGraduate className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <div className="text-2xl font-mo capitalize font-bold">
+            <span className="text-secondarydark">Free</span>{" "}
+            <span className="text-primary ">Consultations</span>
+          </div>
+          <p className="text-grayp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante.{" "}
+          </p>
+        </div>
+        <div
+          className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
+            "bg-primary"}`}
+        >
+          <PiShovelFill className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <div className="text-2xl font-mo capitalize font-bold">
+            <span className="text-secondarydark">Garden</span>{" "}
+            <span className="text-primary ">Design</span>
+          </div>
+          <p className="text-grayp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante.{" "}
+          </p>
+        </div>
+        <div
+          className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
+            "bg-primary"}`}
+        >
+          <GiVacuumCleaner className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <div className="text-2xl font-mo capitalize font-bold">
+            <span className="text-secondarydark">water</span>{" "}
+            <span className="text-primary ">features</span>
+          </div>
+          <p className="text-grayp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante.{" "}
+          </p>
+        </div>
+        <div
+          className={`flex flex-col max-w-[100%] p-6  bg-white rounded-lg shadow-[4px_4px_6px_rgba(0,0,0,0.1)] max-h-[100%] gap-2  transition-all duration-300 hover:scale-105 cursor-pointer hover:${() =>
+            "bg-primary"}`}
+        >
+          <PiFlowerTulipBold className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
+          <div className="text-2xl font-mo capitalize font-bold">
+            <span className="text-secondarydark">water</span>{" "}
+            <span className="text-primary ">features</span>
+          </div>
+          <p className="text-grayp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante.{" "}
+          </p>
+        </div>
       </div>
     </div>
   );

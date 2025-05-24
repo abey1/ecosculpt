@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Ourservices from "./components/Ourservices";
 import Workservice from "./components/Workservice";
 import Hero2 from "./components/Hero2";
+import Pricing from "./components/Pricing";
 
 const montserratFont = Montserrat({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero2 />
       <Ourservices />
       <Workservice />
+      <Pricing />
     </div>
     // <div className="flex flex-col h-screen justify-center items-center px-[1rem]  sm:px-[3rem] md:px-[4rem] lg:px-[5rem]">
     //   <Hero
