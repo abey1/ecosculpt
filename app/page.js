@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Montserrat, Plus_Jakarta_Sans } from "next/font/google";
 
 import Hero from "./components/Hero";
+import Ourservices from "./components/Ourservices";
+import Hero2 from "./components/Hero2";
 
 const montserratFont = Montserrat({
   subsets: ["latin"],
@@ -17,12 +19,20 @@ const plusJakartaSansFont = Plus_Jakarta_Sans({
 
 export default function Home() {
   return (
-    <div className="flex h-screen justify-center items-center ">
-      <Hero
-        title="Gardens of Distinction"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis."
-      />
+    <div>
+      <Hero2 />
+      <Ourservices />
     </div>
+    // <div className="flex flex-col h-screen justify-center items-center px-[1rem]  sm:px-[3rem] md:px-[4rem] lg:px-[5rem]">
+    //   <Hero
+    //     title="Gardens of Distinction"
+    //     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis."
+    //   />
+    //   {/* the next div is just a separation from hero, because the background image used absolute */}
+    //   <div className="pt-[50rem] sm:pt-[35rem] md:pt-[40rem] z-20">
+    //     <Ourservices />
+    //   </div>
+    // </div>
   );
 }
 // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

@@ -5,14 +5,36 @@
   --foreground: #171717;
 }
 
+.bodymargin {
+  padding-left: 5rem; /* Adjust the value as needed */
+  padding-right: 5rem; /* Adjust the value as needed */
+  margin: 0; /* Reset default margin to avoid unexpected spacing */
+}
+
+.mainbg {
+  background-image: url("./components/assets/images/hero_background_image.png");
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: 0.6;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-primary: #2da884;
+  --color-darkprimary: #32b38d;
   --color-secondarydark: #232a42;
   --color-black-layer: rgba(0, 0, 0, 0.9);
+  --color-grayp: var(--color-gray-600);
 
   --font-montserrat: "Montserrat", sans-serif;
   --font-exile: "Oswald", sans-serif;
