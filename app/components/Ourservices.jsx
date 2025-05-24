@@ -8,7 +8,7 @@ import { FaSquareCheck } from "react-icons/fa6";
 
 const Ourservices = () => {
   return (
-    <div className="bodymargin z-20 border-2 border-red-300 pt-[5rem]">
+    <div className="bodymargin z-20 sectionseparate">
       {/* our services title */}
       <div className="capitalize font-bold text-[2rem] md:text-[3rem] font-mo md:max-w-1/2">
         <span className="text-secondarydark">caring for your</span>

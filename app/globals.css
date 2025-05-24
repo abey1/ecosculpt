@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+.sectionseparate {
+  padding-top: 5rem;
+}
+
 .bodymargin {
   padding-left: 5rem; /* Adjust the value as needed */
   padding-right: 5rem; /* Adjust the value as needed */

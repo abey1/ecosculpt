@@ -3,6 +3,7 @@ import { Montserrat, Plus_Jakarta_Sans } from "next/font/google";
 
 import Hero from "./components/Hero";
 import Ourservices from "./components/Ourservices";
+import Workservice from "./components/Workservice";
 import Hero2 from "./components/Hero2";
 
 const montserratFont = Montserrat({
@@ -22,6 +23,7 @@ export default function Home() {
     <div>
       <Hero2 />
       <Ourservices />
+      <Workservice />
     </div>
     // <div className="flex flex-col h-screen justify-center items-center px-[1rem]  sm:px-[3rem] md:px-[4rem] lg:px-[5rem]">
     //   <Hero
