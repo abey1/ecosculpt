@@ -11,11 +11,15 @@ const Ourservices = () => {
     <div className="bodymargin z-20 sectionseparate">
       {/* our services title */}
       <div className="capitalize font-bold text-[2rem] md:text-[3rem] font-mo md:max-w-1/2">
-        <span className="text-secondarydark">caring for your</span>
+        <span className="text-secondarydark dark:text-whited">
+          caring for your
+        </span>
         <span className="text-primary"> private plants</span>
-        <span className="text-secondarydark">, our expertise</span>
+        <span className="text-secondarydark dark:text-whited">
+          , our expertise
+        </span>
       </div>
-      <p className="font-exile md:max-w-1/2 text-grayp">
+      <p className="font-exile md:max-w-1/2 text-grayp dark:text dark:text-grayd">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
         hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien et
         ex volutpat tincidunt eget at felis.
@@ -33,7 +37,7 @@ const Ourservices = () => {
             </p>
           </div>
           <div className="max-w-[100%] p-6 bg-white rounded-lg shadow-[4px_4px_10px_rgba(0,0,0,0.1)] max-h-1/2">
-            <TbCircleDashed className="text-primary text-1xl sm:text-2xl md:text-3xl" />
+            <TbCircleDashed className="text-primary text-1xl sm:text-2xl md:text-3xl mb-2" />
             <span className="text-secondarydark capitalize text-2xl">our</span>{" "}
             <span className="text-primary capitalize">Vission</span>
             <p className="mt-2 text-grayp">
@@ -59,10 +63,12 @@ const Ourservices = () => {
         </div>
         <div className="flex flex-col gap-7 items-start justify-start">
           <div className="font-bold font-mo text-[2rem] md:text-[3rem]">
-            <span className="capitalize text-secondarydark">they</span>{" "}
+            <span className="capitalize text-secondarydark dark:text-whited">
+              they
+            </span>{" "}
             <span className="capitalize  text-primary">choose us</span>
           </div>
-          <p className="text-grayp">
+          <p className="text-grayp dark:text-grayd">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien
             et ex volutpat tincidunt eget at felis nunc eget congue ante.
@@ -71,25 +77,25 @@ const Ourservices = () => {
           <div className="flex flex-col gap-7">
             <div className="flex gap-3 text-2xl md:text-3xl items-center text-primary">
               <FaSquareCheck className="" />{" "}
-              <h2 className="capitalize text-secondarydark  font-mo font-bold">
+              <h2 className="capitalize text-secondarydark dark:text-grayd  font-mo font-bold">
                 expertise
               </h2>
             </div>
             <div className="flex gap-3 text-2xl md:text-3xl items-center text-primary">
               <FaSquareCheck className="" />{" "}
-              <h2 className="capitalize text-secondarydark  font-mo font-bold">
+              <h2 className="capitalize text-secondarydark dark:text-grayd  dark:text-grayd   font-mo font-bold">
                 Timeliness
               </h2>
             </div>
             <div className="flex gap-3 text-2xl md:text-3xl items-center text-primary">
               <FaSquareCheck className="" />{" "}
-              <h2 className="capitalize text-secondarydark  font-mo font-bold">
+              <h2 className="capitalize text-secondarydark dark:text-grayd   font-mo font-bold">
                 Customization
               </h2>
             </div>
             <div className="flex gap-3 text-2xl md:text-3xl items-center text-primary">
               <FaSquareCheck className="" />{" "}
-              <h2 className="capitalize text-secondarydark  font-mo font-bold">
+              <h2 className="capitalize text-secondarydark dark:text-grayd   font-mo font-bold">
                 Quality Workmanship
               </h2>
             </div>
