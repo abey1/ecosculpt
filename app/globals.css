@@ -8,11 +8,17 @@
 .sectionseparate {
   padding-top: 5rem;
 }
-
 .bodymargin {
   padding-left: 5rem; /* Adjust the value as needed */
   padding-right: 5rem; /* Adjust the value as needed */
   margin: 0; /* Reset default margin to avoid unexpected spacing */
+}
+@media screen and (max-width: 640px) {
+  .bodymargin {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+  }
 }
 
 .mainbg {
